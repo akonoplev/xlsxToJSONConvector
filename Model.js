@@ -1,7 +1,7 @@
 const additionInfKeys = ['Доп. Инфа 1',
                      'Доп. Инфа 2']
 
-module.exports = class Person {
+module.exports = class Model {
     constructor(data) {
         this.id = data['id']
         this.name = data['Name']
